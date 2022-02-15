@@ -1,9 +1,8 @@
 .App {
-  height: 100vh;
-  background-color: rgb(20, 20, 20);
-  overflow: scroll;
+  min-height: 100vh;
+  background-color: #0f172a;
   text-align: center;
-  overflow: hidden;
+  padding-top: 3rem;
 }
 
 .container {
@@ -46,9 +45,11 @@
 }
 
 .cta-button {
-  height: 45px;
+  margin-top: 1rem;
+  height: 3rem;
   border: 0;
-  width: auto;
+  width: max-content;
+  text-align: center;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 10px;
@@ -59,27 +60,28 @@
 
 .connect-wallet-button {
   color: white;
-  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  background: -webkit-linear-gradient(left, #be185d, #f472b6);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #7e22ce, #c084fc);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  color: white;
 }
 
 .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
-  /* padding-bottom: 45px; */
+  padding-bottom: 45px;
+  margin-top: 5rem;
 }
 
 .twitter-logo {

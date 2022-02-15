@@ -1,0 +1,19 @@
+{
+  "name": "Beaming Face with Smiling Eyes",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "GhHxa24S17t7dqYB9aJ5a3M5p4iRBHq24guZKuGZ7CM",
+        "share": 100
+      }
+    ]
+  }
+}

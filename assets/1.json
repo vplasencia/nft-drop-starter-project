@@ -1,0 +1,19 @@
+{
+  "name": "Rolling on the Floor Laughing",
+  "symbol": "",
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "GhHxa24S17t7dqYB9aJ5a3M5p4iRBHq24guZKuGZ7CM",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,5 +1,7 @@
 .machine-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -9,9 +11,10 @@
 }
 
 .gif-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-gap: 1.5rem;
+  display: flex;
   justify-items: center;
   margin: 0;
   padding: 20px 0 20px 0;
